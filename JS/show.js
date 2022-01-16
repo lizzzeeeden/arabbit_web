@@ -2,7 +2,6 @@ window.onload = function () {
     graveyard = document.getElementById("graveyard")
     ReadData()
 }
-setInterval(ReadData,1000)
 function ReadData() {
     //墓碑
     $.getJSON("Data/graveyard.json", function (json) {
