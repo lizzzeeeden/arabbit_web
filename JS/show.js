@@ -6,7 +6,9 @@ function ReadData() {
     //墓碑
     $.getJSON("Data/graveyard.json", function (json) {
         dic = json.graveyard;
-        for (var key in dic) {
+        var m_keys = Object.keys(dic);
+        for (var i = m_keys.length - 1; i >= 0; i--) {
+            var key = m_keys[i];
             let gravestone = document.createElement("div");
             gravestone.className = "gravestone";
 
