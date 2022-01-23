@@ -4,7 +4,7 @@ window.onload = function () {
 }
 function ReadData() {
     //墓碑
-    $.getJSON("Data/graveyard.json", function (json) {
+    $.getJSON("graveyard.json", function (json) {
         dic = json.graveyard;
         var m_keys = Object.keys(dic);
         for (var i = m_keys.length - 1; i >= 0; i--) {
