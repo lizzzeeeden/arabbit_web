@@ -4,7 +4,7 @@ body {
 }
 
 #frame{
-	max-width: 60rem;
+	max-width: 50rem;
 	margin: 0 auto;
 }
 
@@ -15,40 +15,42 @@ h1 {
     text-align: center;
 }
 
-.block {
+.gravestone {
     text-align: center;
     vertical-align:middle;
     //text-align-last:left;
 
     display: inline-block;
     box-sizing: border-box;//内边框配padding不会超出外部的div
-    border: rgb(224, 224, 224) 0.2rem;
-    border-style: solid;
+    border: rgb(224, 224, 224) 1rem;
+    border-style: dashed;
     
     padding: 0.5rem;
     padding-top: 0;
-    margin: 1.5rem 2rem;
-    width: 80%;
+    margin: 3rem 2rem;
+    width: 40%;
     min-width: 17rem;
 
-    border-radius: 10px;
+    //border-radius: 20px;
 }
-.name {
-    // font-weight: 700;
-	font-size: 1rem;
+.owlname {
+    font-weight: 700;
+	font-size: 1.5rem;
     color:white;
-    text-align: right;
-    margin: 0.5rem 0.5rem;
-    margin-top: 0;
-    font-style: italic;
-    padding-top: 0;
+    text-align: center;
 }
-.content {
+.stonebody {
     color:white;
-    margin: 1rem 0.5rem;
-    margin-bottom: 0;
+    margin: 0 1.2rem;
     text-align: left;
+}
+.epitaph {
     line-height: 2rem;
+    color:white;
+    font-weight: 200;
+    font-style: oblique;
+    padding: 1rem 2rem;
+    padding-bottom: 2rem;
 }
 
 hr.segment {

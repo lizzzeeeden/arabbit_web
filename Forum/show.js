@@ -4,7 +4,7 @@ window.onload = function () {
 }
 function ReadData() {
     //墓碑
-    $.getJSON("forum.json", function (json) {
+    $.getJSON("../forum.json", function (json) {
         list = json.forum;
         for (var i = list.length - 1; i >= 0; i--) {
             tip = list[i]
