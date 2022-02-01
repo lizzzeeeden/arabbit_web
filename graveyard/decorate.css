@@ -58,6 +58,7 @@ hr.segment {
   color: white;
   list-style: none;
   align-items: center;
+  line-height: 2rem;
 }
 #navbar li {
   padding: 0 2rem 0 0;
