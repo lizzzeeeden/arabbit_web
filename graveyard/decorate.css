@@ -3,7 +3,7 @@ body {
   text-align: center;
 }
 #frame {
-  max-width: 90%;
+  max-width: 100rem;
   margin: 0 auto;
 }
 h1 {
