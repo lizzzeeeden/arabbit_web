@@ -3,7 +3,6 @@ body {
   text-align: center;
 }
 #frame {
-  max-width: 50rem;
   margin: 0 auto;
 }
 h1 {
@@ -22,7 +21,7 @@ h1 {
   padding: 0.5rem;
   padding-top: 0;
   margin: 3rem 2rem;
-  width: 40%;
+  width: 20rem;
   min-width: 17rem;
 }
 .owlname {
